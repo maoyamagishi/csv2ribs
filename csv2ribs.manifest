@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"",
+	"description":	{
+		"":	"make ribs based on the information written in a csv file."
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
