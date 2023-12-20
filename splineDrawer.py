@@ -192,7 +192,7 @@ class Airfoil:
         sketchPoints = sketch.sketchPoints
                 # YZ plane, normal Y
         for i in range(len(coordX)) :
-            xlist[i] = -1*coordY[i] * length            
+            xlist[i] = -1*coordY[i] * length +StartCoordinate[2]       
             ylist[i] = coordX[i] * length + StartCoordinate[1]
         
         points =  adsk.core.ObjectCollection.create()
